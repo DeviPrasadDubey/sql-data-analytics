@@ -92,7 +92,7 @@ Execute the `.sql` files from `scripts/` in this order:
 11. `10_data_segmentation.sql` — customer/product/region segmentation with `case`
 12. `11_customer_report.sql` — consolidated customer-level KPIs (recency, aov, avg monthly spend, lifespan)
 
-> All example queries are written in **lowercase** (style choice) and target **sql server** syntax.
+> All queries are written in **lowercase** (style choice) and target **sql server** syntax.
 
 ---
 
