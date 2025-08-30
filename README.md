@@ -187,21 +187,21 @@ If you plan to reuse code or data publicly, add a `LICENSE` (e.g., MIT).
 
 This project was built as part of my data analytics portfolio to:
 
-Strengthen SQL query-writing skills
+- Strengthen SQL query-writing skills
 
-Demonstrate business-focused analytics with SQL
+- Demonstrate business-focused analytics with SQL
 
-Build a portfolio-ready repository for Data Analyst roles
+- Build a portfolio-ready repository for Data Analyst roles
 
-Explore customer, product, and sales insights end-to-end
+- Explore customer, product, and sales insights end-to-end
 
 ## 🚀 Future Enhancements
 
-Connect SQL outputs to Power BI dashboards
+- Connect SQL outputs to Power BI dashboards
 
-Add RFM scoring & churn prediction
+- Add RFM scoring & churn prediction
 
-Build ETL pipeline for automated refresh
+- Build ETL pipeline for automated refresh
 
 
 ## ✉️ Contact
