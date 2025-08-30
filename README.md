@@ -14,7 +14,7 @@ Welcome! This repository showcases practical **SQL analytics** focused on explor
 ```
 sql-data-analytics/
 ├─ datasets/
-│  └─ <your csv / data files>
+│  └─ <csv files>
 ├─ scripts/
 │  ├─ 00_database_exploration.sql
 │  ├─ 01_dimensions_exploration.sql
