@@ -211,4 +211,4 @@ This project was built as part of my data analytics portfolio to:
 
 ---
 
-> This README is tailored to the current structure and themes of this repository (datasets/ and scripts/). Update file names in the *Repository Structure* and *Run the scripts* sections if they differ from your exact filenames.
+> This repository showcases my end-to-end SQL analytics workflow and is a key part of my personal data analytics portfolio.
