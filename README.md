@@ -1,6 +1,15 @@
 # SQL Data Analytics — Portfolio Repository
 
-Welcome! This repository showcases practical **SQL analytics** focused on exploration, reporting, and business-ready insights. It is organized around two core folders:
+Welcome! This is my SQL Data Analytics project where I designed, structured, and executed SQL-based analyses on business datasets.
+The project demonstrates my ability to:
+
+create and manage datasets in SQL Server
+
+Build analytical SQL queries for business insights
+
+Create structured reports such as magnitude, cumulative, segmentation, and customer-level analysis
+
+Apply advanced SQL concepts like window functions, date functions, and conditional segmentation
 
 - `datasets/` — sample data files you can load into SQL Server
 - `scripts/` — production-ready SQL scripts grouped by analytical theme
@@ -96,6 +105,18 @@ Execute the `.sql` files from `scripts/` in this order:
 
 ---
 
+📊 Key Analyses & Insights
+
+✔ Magnitude Analysis → Overall customers, products, sales, revenue
+✔ Ranking → Best/worst performing products & customers
+✔ Change Over Time → Month-on-month, seasonality, growth trends
+✔ Cumulative → Running totals, moving averages
+✔ Performance (YoY/MoM) → Benchmarking across periods
+✔ Part-to-Whole → Regional/category contributions to sales
+✔ Segmentation → Age groups, customer tiers (VIP, Regular, New)
+✔ Customer Report → Recency, AOV, monthly spend, lifespan
+
+
 ## 📊 KPI Dictionary (used across scripts)
 
 - **total_sales** — `sum(sales_amount)`  
@@ -111,15 +132,13 @@ Execute the `.sql` files from `scripts/` in this order:
 
 ---
 
-## 🧱 Data Model (typical)
+## 🧱 Data Model
 
-Most scripts assume a simple retail-style star schema:
+Simple star schema:
 
-- `gold.dim_customers(customer_key, first_name, last_name, birthdate, country, gender, ...)`
-- `gold.dim_products(product_key, product_name, category, subcategory, cost, price, ...)`
-- `gold.fact_sales(order_number, order_date, customer_key, product_key, order_quantity, sales_amount, price, ...)`
-
-If your schema or names differ, search/replace accordingly.
+- `gold.dim_customers(customer_key, customer_id, customer_number, first_name, last_name, country, marital_status, gender, birthdate)`
+- `gold.dim_products(product_key, product_id, product_number, product_name, category_id, category, subcategory, maintenance, cost, product_line, start_date)`
+- `gold.fact_sales(order_number, product_key, customer_key, order_date, shipping_date, due_date, sales_amount, quantity, price)`
 
 ---
 
@@ -164,6 +183,26 @@ select 'fact_sales', count(*) from gold.fact_sales;
 If you plan to reuse code or data publicly, add a `LICENSE` (e.g., MIT).
 
 ---
+## 🎯 Purpose of Project
+
+This project was built as part of my data analytics portfolio to:
+
+Strengthen SQL query-writing skills
+
+Demonstrate business-focused analytics with SQL
+
+Build a portfolio-ready repository for Data Analyst roles
+
+Explore customer, product, and sales insights end-to-end
+
+## 🚀 Future Enhancements
+
+Connect SQL outputs to Power BI dashboards
+
+Add RFM scoring & churn prediction
+
+Build ETL pipeline for automated refresh
+
 
 ## ✉️ Contact
 
