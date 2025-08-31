@@ -1,6 +1,12 @@
 # SQL Data Analytics — Portfolio Repository
 
 Welcome! This is my SQL Data Analytics project where I designed, structured, and executed SQL-based analyses on business datasets.
+
+## 📦 Project Context
+This project is the **next phase** of my [Sales Data Warehouse Project](https://github.com/DeviPrasadDubey/sql-data-warehouse-project).  
+The warehouse was designed with **ETL pipelines, star schema (fact & dimensions)**, and SQL Server.  
+This repository continues the journey by performing **advanced SQL analytics** on top of that warehouse, covering magnitude, segmentation, customer-level KPIs, and trend analysis.
+
 The project demonstrates my ability to:
 
 create and manage datasets in SQL Server
@@ -212,5 +218,9 @@ This project was built as part of my data analytics portfolio to:
 - Repo: `sql-data-analytics`
 
 ---
-
+🔙 Go back to the [SQL Data Warehouse Project](https://github.com/DeviPrasadDubey/sql-data-warehouse-project)
+---
+## 📄 License
+If you plan to reuse code or data publicly, add a `LICENSE` (e.g., MIT).
+---
 > This repository showcases my end-to-end SQL analytics workflow and is a key part of my personal data analytics portfolio.
