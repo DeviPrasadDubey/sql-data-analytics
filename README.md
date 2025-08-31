@@ -207,6 +207,8 @@ This project was built as part of my data analytics portfolio to:
 ## ✉️ Contact
 
 - Author: **Devi Prasad Dubey**
+- email: dubeydeviprasad763@gmail.com
+- LinkedIn: www.linkedin.com/in/devi-prasad-dubey-580892349
 - Repo: `sql-data-analytics`
 
 ---
